@@ -1,0 +1,308 @@
+*
+{
+    margin: auto;
+    box-sizing: border-box !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header
+{
+    background-color: #11012a;
+    color:  #fff;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 1234599;
+}
+.head
+{
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+    font-size: 30px;
+    text-align: left;
+}
+.links
+{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.links ul li
+{
+    float: left;
+    list-style: none;
+    width: 20%;
+    font-size: 20px;
+}
+.links ul li a , .head a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.links ul li a:hover , .head a:hover
+{
+    color: chartreuse;
+}
+.sec1
+{
+    overflow: hidden;
+    background-color: #0c0f38;
+    color: #fff;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.container
+{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+.sec1 .text-bg
+{
+    width:40%;
+    float: left;
+    text-align: left;
+}
+.sec1 .text-bg h1
+{
+    font-size: 60px;
+    font-weight: bold;
+}
+.sec1 .text-bg span
+{
+    color: chartreuse;
+    font-weight: bold;
+    font-size: 40px;
+}
+.sec1 .text-bg p
+{
+    font-size: 17px;
+    line-height: 28px;
+    padding: 40px 0px;
+}
+.sec1 .text-bg a
+{
+    text-align: center;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 15px 0px;
+    display: inline-block;
+    max-width: 190px;
+    width: 100%;
+    color: black;
+}
+.sec1 .text-img
+{
+    width: 60%;
+    float: left;
+}
+.web-hosting
+{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.web-hosting h2 , .TitlePage h2
+{
+    font-size: 45px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+    color: #0c0f38;
+}
+.web-hosting p , .TitlePage p
+{
+    font-size: 17px;
+    line-height: 28px;
+    padding: 40px 50px;
+    font-weight: bold;
+    color: #0c0f38;
+}
+.web-hosting a , .title a
+{
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    max-width: 190px;
+    text-decoration: none;
+    text-align:center;
+    padding: 10px 0px;
+    font-weight: 400px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.services
+{
+    background-color: #0c0f38;
+    padding: 50px 0px;   
+}
+.elements
+{
+    overflow: hidden;
+    padding: 50px 0px;
+
+}
+.services h2
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+.services p , .title p
+{
+    color: #fff;
+    padding: 40px 0px;
+}
+.services a
+{
+    color: #000;
+    background-color: #fff;
+    width: 100%;
+    max-width: 190px;
+    text-decoration: none;
+    text-align:center;
+    padding: 15px 0px;
+    font-weight: 400px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.elements .element
+{
+    width:30%;
+    margin: 15px 15px;
+    float: left;
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 20px;
+    padding: 30px;
+}
+.element:hover , .title:hover
+{
+    background-color:darkorchid;
+}
+.titles
+{
+    overflow: hidden;
+}
+.title
+{
+    width:30%;
+    margin: 15px 15px;
+    float: left;
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 20px;
+    padding: 30px;
+    background-color:#0c0f38 ;
+    
+}
+.title h3 , .element h3
+{
+    padding-top: 30px;
+}
+.title img , .element img
+{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+}
+.titleimg
+{
+    width:25%;
+    float: left;
+    background-color:#000 ;
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 10px 41px;
+    padding: 15px;
+    text-decoration: none;
+}
+.titleimg:hover
+{
+    background-color: blueviolet;
+}
+.conform
+{
+    background-color: #0c0f38;
+    border: 1px solid #0c0f38;
+    border-radius: 20px;
+    width: 40%;
+    position : absolute;
+    bottom:70%;
+    left: 30%;
+    z-index: 1234555;
+}
+.conform .formel input , textarea
+{
+    width:80%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    text-align: left !important;
+}
+.conform .formel button
+{
+    width: 35%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.contact
+{
+    margin-top: 200px;
+    text-align: center;
+    position: relative;
+}
+.text
+{
+    color: #fff;
+    background-color:#0c0f38 ;
+    height: 600px;
+}
+.container .textpart
+{
+    padding-top: 250px;
+    text-align: center;
+}
+.textpart h3
+{
+    color: #fff;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 30px 0px 0px 0px;
+}
+.textpart span
+{
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 30px 0px 30px 0px;
+    display: inline-block;
+    font-weight: bold;
+}
+.textpart p
+{
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0 130px;
+    padding-bottom: 60px;
+}
+.CopyR
+{
+    padding: 15px 0px;
+}
+.CopyR p , a ,.conform .formel input , textarea , button
+{
+    color: #1e1e1e;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+}
